@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="afs">
     <serverData>
+      <paths name="Afs">
+        <serverdata>
+          <mappings>
+            <mapping deploy="history117" local="$PROJECT_DIR$/dist" web="/history117" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="afs">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/history117" local="$PROJECT_DIR$/dist" web="/history117" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

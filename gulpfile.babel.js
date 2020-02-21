@@ -67,12 +67,12 @@ gulp.task('clean', (done) => {
     done();
   });
 });
-
+/*
 gulp.task('copy:.htaccess', () =>
   gulp.src('node_modules/apache-server-configs/dist/.htaccess')
     .pipe(plugins().replace(/# ErrorDocument/g, 'ErrorDocument'))
     .pipe(gulp.dest(dirs.dist))
-);
+);*/
 
 gulp.task('copy:index.html', () => {
   const hash = ssri.fromData(
@@ -151,7 +151,7 @@ gulp.task('lint:js', () =>
 gulp.task(
   'copy',
   gulp.series(
-    'copy:.htaccess',
+    //'copy:.htaccess',
     'copy:index.html',
     'copy:jquery',
     'copy:license',
