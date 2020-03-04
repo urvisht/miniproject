@@ -1,0 +1,44 @@
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background:url("../img/sand.jpg")no-repeat;
+  background-size:cover;
+  color:yellowgreen;
+  text-decoration:none;
+}
+#main h2{
+  text-align:center;
+  font-size:35px;
+  padding-bottom:30px;
+}
+#menu a,li{
+  text-align:justify;
+  display:inline;
+  padding-left:1px;
+  font-size:22px;
+}
+a{
+  color:wheat;
+  text-decoration:none;
+}
+a:hover{color:deepskyblue}
+#top h3{
+  text-align:center;
+  font-size:28px;
+  color:deepskyblue;
+  padding-bottom:20px;
+}
+#top h4{
+  text-align:center;
+  color:dodgerblue;
+  font-size: 25px;
+}
+p{
+  color:lightskyblue;
+  padding: 0% 5%;
+}
+#topic{
+  font-size: 22px;
+}
+footer{
+  text-align:center;
+}
